@@ -19,7 +19,7 @@ def solve_for():
     if solve_for == "c" or solve_for == "C":
         a = float(input("Input 'a' value: "))
         b = float(input("Input 'b' value: "))
-        print("c = ", ((a ** 2 + b ** 2) ** (1 / 2)))
+        print("c = ", ((a**2 + b**2)**(1/2)))
 
 # solve_for(QUIT)
     if solve_for == "Q" or solve_for == "q":
